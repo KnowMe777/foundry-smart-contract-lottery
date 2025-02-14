@@ -60,13 +60,10 @@ This will default to your local node. You need to have it running in another ter
 make deploy
 ```
 
-## Deploy - Other Network
-
-[See below](#deployment-to-a-testnet-or-mainnet)
 
 ## Testing
 
-We talk about 4 test tiers in the video.
+There are 4 test tiers.
 
 1. Unit
 2. Integration
@@ -97,9 +94,8 @@ forge coverage
 
 You'll want to set your `SEPOLIA_RPC_URL` and `PRIVATE_KEY` as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
 
-- `PRIVATE_KEY`: The private key of your account (like from [metamask](https://metamask.io/)). **NOTE:** FOR DEVELOPMENT, PLEASE USE A KEY THAT DOESN'T HAVE ANY REAL FUNDS ASSOCIATED WITH IT.
-  - You can [learn how to export it here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
-- `SEPOLIA_RPC_URL`: This is url of the sepolia testnet node you're working with. You can get setup with one for free from [Alchemy](https://alchemy.com/?a=673c802981)
+- `PRIVATE_KEY`: The private key of your account (like from [metamask](https://metamask.io/)).
+- `SEPOLIA_RPC_URL`: This is url of the sepolia testnet node you're working with.
 
 Optionally, add your `ETHERSCAN_API_KEY` if you want to verify your contract on [Etherscan](https://etherscan.io/).
 
